@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RBTree Viewer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+</head>
+<body>
+    <script src="script.js"></script>
+    <div id="controls">
+        <form action="">
+            <input class="control" type="number" inputmode="numeric" id="inputField" name="inputField" min="0" max="600">
+        </form>
+        <button class="control" onclick="onInsert()">Insert</button>
+        <button class="control" onclick="onDelete()">Delete</button>
+        <button class="control" onclick="onSearch()">Search</button>
+    </div>
+
+    <div id="nodesContainer">
+        <div id="linesContainer"></div>
+    </div>
+
+    
+</body>
+</html>
